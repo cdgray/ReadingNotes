@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"3d3ff76caf2d8184","x":-340,"y":-420,"width":400,"height":400,"type":"group","label":"Efficiency Items"},
+		{"id":"30680603a11fee4e","x":120,"y":-280,"width":250,"height":50,"type":"text","text":"Item 25 "},
+		{"id":"136e9f6f487eb4cd","x":120,"y":-126,"width":250,"height":60,"type":"text","text":"hashed containers"},
+		{"id":"8cfe03d8d7b01266","x":120,"y":20,"width":250,"height":60,"type":"text","text":"Reference counting"},
+		{"id":"8022295ca5ed9d19","x":-149,"y":103,"width":469,"height":50,"type":"text","text":"Item 4: Call empty instead of checking size() against zero."},
+		{"id":"ff1b1c92c32997a0","x":-149,"y":180,"width":625,"height":50,"type":"text","text":"Item 5: Prefer range member functions to their single-element counterparts."},
+		{"id":"b3f2dd8ce781cd02","x":-149,"y":280,"width":469,"height":50,"type":"text","text":"Item 14: Use reserve to avoid unnecessary reallocations."},
+		{"id":"f35ab3a66a0dd0ef","x":-149,"y":360,"width":549,"height":50,"type":"text","text":"Item 15: Be aware of variations in string implementations."},
+		{"id":"329570114839a772","x":-149,"y":460,"width":578,"height":50,"type":"text","text":"Item 23: Consider replacing associative containers with sorted vectors."},
+		{"id":"f344cea97173014a","x":-149,"y":540,"width":749,"height":50,"type":"text","text":"Item 24: Choose carefully between map::operator[] and map::insert when efficiency is important."},
+		{"id":"9df71a9a95ec10f3","x":-149,"y":640,"width":701,"height":50,"type":"text","text":"Item 25: Familiarize yourself with the nonstandard hashed containers. "},
+		{"id":"ff8d654e1a9cf2b5","x":-149,"y":740,"width":633,"height":50,"type":"text","text":"Item 29: Consider istreambuf_iterators for character-by-character input. "},
+		{"id":"8bdaf62af41663a5","x":-149,"y":840,"width":317,"height":50,"type":"text","text":"Item 31: Know your sorting options."},
+		{"id":"6b525afc6b0546ce","x":-149,"y":920,"width":620,"height":50,"type":"text","text":"Item 44: Prefer member functions to algorithms with the same names. "},
+		{"id":"44c48fd3817fd11d","x":-148,"y":1020,"width":633,"height":50,"type":"text","text":"Item 46: Consider function objects instead of functions as algorithm parameters."}
+	],
+	"edges":[
+		{"id":"aa82729350040605","fromNode":"30680603a11fee4e","fromSide":"bottom","toNode":"136e9f6f487eb4cd","toSide":"top"}
+	]
+}
